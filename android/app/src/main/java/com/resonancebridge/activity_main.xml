@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@android:color/black">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESONANCE BRIDGE"
+        android:textColor="#4FC3F7"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+    
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Статус: готовий"
+        android:textColor="#81C784"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+    
+    <Button
+        android:id="@+id/btn_start_stop"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="СТАРТ СИНХРОНІЗАЦІЇ"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#7C4DFF"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="30dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Гучність:"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+    
+    <SeekBar
+        android:id="@+id/seekbar_volume"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="30"/>
+    
+    <TextView
+        android:id="@+id/tv_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFB74D"
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginTop="40dp"
+        android:padding="16dp"
+        android:background="#1A1A1A"/>
+    
+</LinearLayout>
