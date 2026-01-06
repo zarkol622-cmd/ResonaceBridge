@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<activity
+    android:name=".ui.WarningActivity"
+    android:exported="true"
+    android:theme="@style/Theme.ResonanceBridge.Warning">
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity><?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
     
